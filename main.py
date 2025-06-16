@@ -21,11 +21,14 @@ def Revise():
 def Year9Subjects():
     print()
     print("1: English")
+    print("2: Biology")
+    print("")
 
 def Year10Subjects():
     pass
 
 def Year11Subjects():
-    pass
 
 print(f"The time now is: {datetime.now()}")
+
+Revise()
