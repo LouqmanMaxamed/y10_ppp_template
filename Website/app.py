@@ -26,6 +26,7 @@ def show_subject_cards(subject):
     print(f"{flashcard["question"]}")
     ans = input("What is your answer?\n")
     if ans in flashcard["answer"]:
+        pass
 
 
 if __name__ == '__main__':
